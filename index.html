@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Final Project JS</title>
+</head>
+<body>
+
+  <div class="cover">
+    <form class="flex-form">
+      <input type="search" class="search"placeholder="Search your item here">
+      <input type="submit" value="Submit">
+
+    </form>
+    <ul class="suggestions">
+      <li>Filter for a Item Name or a Brand Name</li>
+      
+    </ul>
+
+    <form class="add-form" id="inputForm">
+      <label for="Product Name">Product Name</label>
+      <input type="text" name="productName" id="productName">
+      <label for="Brand">Brand</label>
+      <input type="text" name="brandName" id="brandName">
+      <label for="Price">Price</label>
+      <input type="number" name="price" id="price">
+      <label for="Date">Date</label>
+      <input type="date" name="date" id="date">
+      <button id="inputData">INPUT</button>
+
+    </form>
+    <div class="results">
+  <h2 class="results__heading">Form Data</h2>
+  <pre class="results__display-wrapper"><code class="results__display"></code></pre>
+</div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
